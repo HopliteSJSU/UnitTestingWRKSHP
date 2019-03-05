@@ -7,7 +7,7 @@ import org.w3c.dom.NodeList;
 
 public class API {
 
-	public Movie parseFrom(Document xml) {
+	public static Movie parseFrom(Document xml) {
 		xml.getDocumentElement().normalize();
 		NodeList list = xml.getElementsByTagName("movie");
 
