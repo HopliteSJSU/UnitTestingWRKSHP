@@ -3,10 +3,10 @@ package movies;
 import java.util.Objects;
 
 public class Movie implements Comparable<Movie> {
-	private String name;
-	private int year;
-	private String director;
-	private String writer;
+	String name;
+	int year;
+	String director;
+	String writer;
 
 	public Movie(String name, int year, String director, String writer) {
 		this.name = name;
